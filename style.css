@@ -1,0 +1,114 @@
+@media (max-width: 1250px) {
+    body {
+    font-family: 'Sono', sans-serif;
+    background-color: #ECF8F9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+    .pricing-container{
+      display: flex;
+      flex-flow: column wrap;
+
+    }
+    .pricing-plan{
+      background: #6fa8b4;
+      text-align: center;
+      margin: 10px;
+      border-radius: 1.2%;
+      min-width: 425px;
+      height: 300px;
+    }
+    .plan-title{
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .plan-price{
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    li{
+      list-style: none;
+      margin: 9px 5px 5px 5px;
+    }
+    .plan-features{
+      margin-right: 75px;
+    }
+    .plan-button{
+      background-color: #E55807;
+      color: #ECF8F9;
+      border: 0;
+      border-radius: 10%;
+      margin: 20px 0 5px 0;
+      font-family: 'Sono', sans-serif;
+      width: 72px;
+      padding: 8px 0 8px 0;
+      align-self: center;
+    }
+    .plan-button:hover{
+      background-color: #6fa8b4;
+      color: #E55807;
+      border: solid 1.5px #E55807;
+      animation-delay: 3ms;
+    }
+  }
+
+  @media (min-width: 1250.1px) {
+    body {
+    font-family: 'Sono', sans-serif;
+    background-color: #ECF8F9;
+    display: flex;
+    justify-content: center;
+    height: 750px;
+  }
+    .pricing-container{
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .pricing-plan{
+      background: #6fa8b4;
+      border-radius: 1.2%;
+      height: 300px;
+      margin: 18px;
+      text-align: center;
+      width: 400px;
+    }
+    .plan-title{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 15px 10px 10px 10px;
+    }
+    .plan-price{
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    li{
+      list-style: none;
+      margin: 5px;
+    }
+    .plan-features{
+      margin: 20px 75px 5px 0;
+    }
+    .plan-button{
+      align-self: center;
+      background-color: #E55807;
+      border: 0;
+      border-radius: 10%;
+      color: #ECF8F9;
+      font-family: 'Sono', sans-serif;
+      margin: 27px 0 5px 0;
+      padding: 10px 0 10px 0;
+      width: 72px;
+    }
+    .plan-button:hover{
+      animation-delay: 3ms;
+      background-color: #6fa8b4;
+      border: solid 1.75px #E55807;
+      color: #E55807;
+    }
+  }
